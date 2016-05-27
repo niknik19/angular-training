@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angular Training</title>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/training.css">
+</head>
+
+<body ng-app="myApp" ng-init="sharedObject = {}">
+
+    <!-- PARENT 1 -->
+    <div class="panel panel-default" ng-controller="SimpleController">
+        <div class="panel-heading">
+            <h4><label class="label label-default">Parent Controller 1</label></h4>
+        </div>
+        <div>
+            <label>Value: </label>
+            <input ng-model="sharedObject.parentModel"> {{ sharedObject.parentModel }}
+        </div>
+
+        <div class="panel-body">
+
+            <!-- CHILD 1 -->
+            <div class="panel panel-default" ng-controller="SimpleController">
+                <div class="panel-heading">
+                    <h4><label class="label label-default">Child Controller 1 - 1</label></h4>
+                </div>
+                <div class="panel-body">
+                    <div>
+                        <label>Value: </label>
+                        <input ng-model="sharedObject.parentModel"> {{ sharedObject.parentModel }}
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHILD 2 -->
+            <div class="panel panel-default" ng-controller="SimpleController">
+                <div class="panel-heading">
+                    <h4><label class="label label-default">Child Controller 1 - 2</label></h4>
+                </div>
+                <div class="panel-body">
+                    <div>
+                        <label>Value: </label>
+                        <input ng-model="sharedObject.parentModel"> {{ sharedObject.parentModel }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PARENT 2 -->
+    <div class="panel panel-default" ng-contoller="SimpleController">
+        <div class="panel-heading">
+            <h4><label class="label label-default">Parent Controller 2</label></h4>
+        </div>
+        <div class="panel-body">
+            <div>
+                <label>Value: </label>
+                <input ng-model="sharedObject.parentModel"> {{ sharedObject.parentModel }}
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="components/angular/angular.js"></script>
+<script src="js/training.js"></script>
+<script src="components/lodash/lodash.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.js"></script>
+
+</html>
