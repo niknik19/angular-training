@@ -12,7 +12,7 @@
  - in the scope level of ChildCtrl1 and ChildCtrl2 place inputs with ng-model bound to shared value
  - near each inputs place outputs of shared value with {{}} expression
  - improve the application so that all the {{}} show the same values after different scenarios of typing in valuse into different inputs.
-#### - [Task 1.5]
+#### - [Task - 1.5]
  - Implement modal-window directive that will take title and actionCallback as params (title is string for window title, actionCallback to handle OK-button click). 
 You should use ng-transclude directive so that you could insert any content into modal window. Content is context-dependent. Modal-window dorective use example:
 ```html
@@ -34,5 +34,6 @@ You should use ng-transclude directive so that you could insert any content into
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-   [Task - 1]: <//niknik19.github.io/angular-training/>
+   [Task - 1]: <//niknik19.github.io/angular-training/index1.html>
+   [Task - 1.5]: <//niknik19.github.io/angular-training/index1.5.html>
 
