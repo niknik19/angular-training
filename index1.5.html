@@ -7,11 +7,23 @@
     <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/training.css">
 </head>
-
-<body>
-
+<body ng-app="myApp">
+    <modal-window title="modalWindowTitle" action-callback="modalWindowActionHandler(event, sender)">
+        <p>
+            Although, in a way, the Congressional powers in Article 9 made the 
+            "league of states as cohesive and strong as any similar sort of republican 
+            confederation in history",
+            <sup id="cite_ref-11" class="reference">
+                <a ng-click="doSomeMagic()">[11]</a>
+            </sup>
+            the chief problem with the new government under the Articles of Confederation was, 
+            in the words of 
+            <a ng-click="doSomeMagic()">George Washington</a>, 
+            "no money".
+            <sup id="cite_ref-maier11-13_12-0" class="reference"><a ng-click="doSomeMagic()">[12]</a></sup>...	
+        </p>
+    </modal-window>
 </body>
-    
     <script src="components/jquery/dist/jquery.js"></script>
     <script src="components/angular/angular.js"></script>
     <script src="js/1.5/training.js"></script>
