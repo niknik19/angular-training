@@ -9,15 +9,25 @@
 </head>
 
 <body ng-app="myApp">
-    <training-tab-panel callbacks="callbacks">
-        {{ tabContent }}
-    </training-tab-panel>
+    <div ng-controller="SimpleController">
+        <training-tab-panel>
+            <training-tab heading="Tab 1">
+                Static content.
+            </training-tab>    
+            <training-tab select="alertMe()">
+                <training-tab-heading>
+                    <i class="glyphicon glyphicon-bell"></i> Callback
+                </training-tab-heading>
+                Custom Html heading plus select callback
+            </training-tab>
+        </training-tab-panel>
+    </div>
 </body>
 
 
 <script src="components/jquery/dist/jquery.js"></script>
 <script src="components/angular/angular.js"></script>
-<script src="js/2/training.js"></script>
+<script src="js/2/training.ver2.js"></script>
 <script src="components/lodash/lodash.js"></script>
 <script src="components/bootstrap/dist/js/bootstrap.js"></script>
 

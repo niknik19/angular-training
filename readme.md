@@ -33,7 +33,7 @@ You should use ng-transclude directive so that you could insert any content into
  - There is doSomeMagic handler called in ng-click inside
  - Please create doSomeMagic method in rootScope (it doesn't metter what it will do - let it log into console some line - 'Hello World!')
 
-#### [Task - 2]
+#### [Task - 2. ver 1] [Task - 2. ver 2]
  - Create any directive with isolated scope (tab control with callbacks on activating new tab) which will use ng-transclude
 	Tab control should have not limited number of possible tabs inside. 
     It should have callback onTabActivated so that each tab could load data only in case it's needed (lazy loading for each tab)
@@ -45,6 +45,7 @@ You should use ng-transclude directive so that you could insert any content into
 
    [Task - 1]: <//niknik19.github.io/angular-training/index1.html>
    [Task - 1.5]: <//niknik19.github.io/angular-training/index1.5.html>
-   [Task - 2]: <//niknik19.github.io/angular-training/index2.html>
+   [Task - 2. ver 1]: <//niknik19.github.io/angular-training/index2.html>
+   [Task - 2. ver 2]: <//niknik19.github.io/angular-training/index2.ver2.html>
    [Task - 2.1]: <//niknik19.github.io/angular-training/index2.1.html>
 
