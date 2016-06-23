@@ -196,4 +196,8 @@ module.controller('SimpleController', ['$scope', '$window', function($scope, $wi
             $window.alert('You\'ve selected the tab with callback');
         });
     }
+
+    $scope.scopeContent = "Some content from scope";
+
+    $scope.scopeHeading = "Some heading from scope";
 }]);
