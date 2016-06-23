@@ -57,4 +57,4 @@ You should use ng-transclude directive so that you could insert any content into
    [Task - 1.5]: <//niknik19.github.io/angular-training/index1.5.html>
    [Task - 2.1 ver 1]: <//niknik19.github.io/angular-training/index2.html>
    [Task - 2.1 ver 2 and Task - 3]: <//niknik19.github.io/angular-training/index2.ver2.html>
-   [Task  - 4]: <//niknik19.github.io/angular-training/index4.html>
+   [Task - 4]: <//niknik19.github.io/angular-training/index4.html>
