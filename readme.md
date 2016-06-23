@@ -47,7 +47,9 @@ You should use ng-transclude directive so that you could insert any content into
 	For that initialize value in root scope with the same name as tab control has in isolated scope and uses for own template (for example title which is the title for the tab).
 	also use {{}} expression for displaying the title value from root scope above tab control is used and alos in one of its tab (in pane).
 
-
+#### [Task - 4]
+- Implement application that will demonstrate communication between directives with firing events.
+	For that place directives in a different scopes with the only parent which is root scope.
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
@@ -55,4 +57,4 @@ You should use ng-transclude directive so that you could insert any content into
    [Task - 1.5]: <//niknik19.github.io/angular-training/index1.5.html>
    [Task - 2.1 ver 1]: <//niknik19.github.io/angular-training/index2.html>
    [Task - 2.1 ver 2 and Task - 3]: <//niknik19.github.io/angular-training/index2.ver2.html>
-
+   [Task  - 4]: <//niknik19.github.io/angular-training/index4.html>
