@@ -47,6 +47,8 @@ You should use ng-transclude directive so that you could insert any content into
 	For that initialize value in root scope with the same name as tab control has in isolated scope and uses for own template (for example title which is the title for the tab).
 	also use {{}} expression for displaying the title value from root scope above tab control is used and alos in one of its tab (in pane).
 
+
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [Task - 1]: <//niknik19.github.io/angular-training/index1.html>
