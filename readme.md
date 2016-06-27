@@ -47,7 +47,7 @@ You should use ng-transclude directive so that you could insert any content into
 	For that initialize value in root scope with the same name as tab control has in isolated scope and uses for own template (for example title which is the title for the tab).
 	also use
 
-	    {{}}
+      {{}}
 
     expression for displaying the title value from root scope above tab control is used and alos in one of its tab (in pane).
 
@@ -61,11 +61,9 @@ You should use ng-transclude directive so that you could insert any content into
 
 #### [Task - 6]
 
-- Digest cycle:
-  	create application which demonstrate work of digest cycle. For that create2 methods (one starting $timeout for changing value in scope, another uses setTimeout for changing the value) for changing value in scope.
-  	Display the value with
+- Digest cycle: create application which demonstrate work of digest cycle. For that create2 methods (one starting $timeout for changing value in scope, another uses setTimeout for changing the value) for changing value in scope. Display the value with
 
-  	{{}}
+      {{}}
 
     expression. Check that label displaying the value changed with setTimeout is not refreshed.  	Do the same with ajax, click event.
 
