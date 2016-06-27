@@ -51,6 +51,10 @@ You should use ng-transclude directive so that you could insert any content into
 - Implement application that will demonstrate communication between directives with firing events.
 	For that place directives in a different scopes with the only parent which is root scope.
 
+#### [Task - 5]
+- Implement application that will demonstrate communication between directives using dependency injection.
+	so that data is transfered through the services injected into both directives.
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [Task - 1]: <//niknik19.github.io/angular-training/index1.html>
@@ -58,3 +62,4 @@ You should use ng-transclude directive so that you could insert any content into
    [Task - 2.1 ver 1]: <//niknik19.github.io/angular-training/index2.html>
    [Task - 2.1 ver 2 and Task - 3]: <//niknik19.github.io/angular-training/index2.ver2.html>
    [Task - 4]: <//niknik19.github.io/angular-training/index4.html>
+   [Task - 5]: <//niknik19.github.io/angular-training/index5.html>

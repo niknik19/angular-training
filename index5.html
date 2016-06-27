@@ -9,22 +9,22 @@
 </head>
 
 <body ng-app="myApp">
-    <form class="container" ng-repeat="i in [1, 2, 3, 4]">
-        <div class="row form-inline" simple-directive ng-init="identifier = i">
-            <h2>
-                <label class="col-xs-2 label label-primary">
+<form class="container" ng-repeat="i in [1, 2, 3, 4]">
+    <div class="row form-inline" simple-directive ng-init="identifier = i">
+        <h2>
+            <label class="col-xs-2 label label-primary">
                 {{"Directive # " + identifier}}
-                </label>
-            </h2>
-            <button class="col-xs-2 btn btn-primary" ng-click="click()">Click to Send Event</button>
-            <textarea class="col-xs-8 form-inline" rows="6" ng-model="content" readonly></textarea>
-        </div>
-    </form>
+            </label>
+        </h2>
+        <button class="col-xs-2 btn btn-primary" ng-click="click()">Click to Add Data</button>
+        <textarea class="col-xs-8 form-inline" rows="6" ng-bind="getData()"readonly></textarea>
+    </div>
+</form>
 </body>
 
 <script src="components/jquery/dist/jquery.js"></script>
 <script src="components/angular/angular.js"></script>
-<script src="js/4/training.js"></script>
+<script src="js/5/training.js"></script>
 <script src="components/lodash/lodash.js"></script>
 <script src="components/bootstrap/dist/js/bootstrap.js"></script>
 
