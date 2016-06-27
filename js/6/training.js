@@ -42,7 +42,7 @@ module.controller("simpleController", ["$scope", "$timeout", "$http", function($
         xhr.addEventListener('load', function() {
 
         debugger;
-          if (xhr.status != 200) {
+          if (xhr.status == 200) {
             $scope.ajaxContent += "JS ajax success\n";
           } else {
             $scope.ajaxContent += "JS ajax fail\n";
