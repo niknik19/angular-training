@@ -45,7 +45,11 @@ You should use ng-transclude directive so that you could insert any content into
 #### [Task - 2.1 ver 2 and Task - 3]
 - Create application that will use tab control and will show that ng-transclude jumps over isolated scope.
 	For that initialize value in root scope with the same name as tab control has in isolated scope and uses for own template (for example title which is the title for the tab).
-	also use {{}} expression for displaying the title value from root scope above tab control is used and alos in one of its tab (in pane).
+	also use
+
+	    {{}}
+
+    expression for displaying the title value from root scope above tab control is used and alos in one of its tab (in pane).
 
 #### [Task - 4]
 - Implement application that will demonstrate communication between directives with firing events.
@@ -55,6 +59,16 @@ You should use ng-transclude directive so that you could insert any content into
 - Implement application that will demonstrate communication between directives using dependency injection.
 	so that data is transfered through the services injected into both directives.
 
+#### [Task - 6]
+
+- Digest cycle:
+  	create application which demonstrate work of digest cycle. For that create2 methods (one starting $timeout for changing value in scope, another uses setTimeout for changing the value) for changing value in scope.
+  	Display the value with
+
+  	{{}}
+
+    expression. Check that label displaying the value changed with setTimeout is not refreshed.  	Do the same with ajax, click event.
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [Task - 1]: <//niknik19.github.io/angular-training/index1.html>
@@ -63,3 +77,4 @@ You should use ng-transclude directive so that you could insert any content into
    [Task - 2.1 ver 2 and Task - 3]: <//niknik19.github.io/angular-training/index2.ver2.html>
    [Task - 4]: <//niknik19.github.io/angular-training/index4.html>
    [Task - 5]: <//niknik19.github.io/angular-training/index5.html>
+   [Task - 6]: <//niknik19.github.io/angular-training/index6.html>

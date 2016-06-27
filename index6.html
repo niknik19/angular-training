@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angular Training</title>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/training.css">
+</head>
+
+<body ng-app="myApp">
+<form class="container" ng-controller="simpleController" >
+    <div class="row form-inline">
+        <h2>
+            <label class="col-xs-2 label label-primary">
+                Click
+            </label>
+        </h2>
+        <button class="col-xs-2 btn btn-primary" ng-click="clickAction()">Angular click</button>
+        <button class="col-xs-2 btn btn-primary" id="js-click">JS click</button>
+        <textarea class="col-xs-6 form-inline" rows="6" ng-bind="clickContent"readonly></textarea>
+    </div>
+
+    <div class="row form-inline">
+        <h2>
+            <label class="col-xs-2 label label-primary">
+                Timeout
+            </label>
+        </h2>
+        <button class="col-xs-2 btn btn-primary" ng-click="timeoutAction()">Angular $timeout</button>
+        <button class="col-xs-2 btn btn-primary" id="js-timeout">JS timeout</button>
+        <textarea class="col-xs-6 form-inline" rows="6" ng-bind="timeoutContent"readonly></textarea>
+    </div>
+
+    <div class="row form-inline">
+        <h2>
+            <label class="col-xs-2 label label-primary">
+                Ajax
+            </label>
+        </h2>
+        <button class="col-xs-2 btn btn-primary" ng-click="ajaxAction()">Angular $ajax</button>
+        <button class="col-xs-2 btn btn-primary" id="js-ajax">JS ajax</button>
+        <textarea class="col-xs-6 form-inline" rows="6" ng-bind="ajaxContent"readonly></textarea>
+    </div>
+</form>
+</body>
+
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="components/angular-1.2.10/angular.js"></script>
+<script src="js/6/training.js"></script>
+<script src="components/lodash/lodash.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.js"></script>
+
+</html>
