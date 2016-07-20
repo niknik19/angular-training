@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47e56d71-9529-48d5-9948-131a45852629" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index6.html" afterPath="$PROJECT_DIR$/index6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="angular-training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +26,23 @@
     <splitter split-orientation="horizontal" split-proportion="0.8966148">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/readme.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="298">
+                    <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
+                    <folding>
+                      <marker date="1469052864905" expanded="true" signature="1276:1838" ph="..." />
+                      <marker date="1469052864905" expanded="true" signature="1281:1822" ph="..." />
+                      <marker date="1469052864905" expanded="true" signature="1495:1544" ph="..." />
+                    </folding>
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="index5.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index5.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -46,10 +63,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index7.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index7.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index7.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
+                <state relative-caret-position="-331">
                   <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
                   <folding />
                 </state>
@@ -91,16 +108,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
                   <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="training.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/5/training.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
                   <folding />
                 </state>
               </provider>
@@ -164,12 +171,12 @@
         <option value="$PROJECT_DIR$/index5.html" />
         <option value="$PROJECT_DIR$/components/angular - 1.1.1/index.js" />
         <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/js/6/training.js" />
         <option value="$PROJECT_DIR$/index6.html" />
         <option value="$PROJECT_DIR$/components/angular/index.js" />
         <option value="$PROJECT_DIR$/js/7/training.js" />
         <option value="$PROJECT_DIR$/index7.html" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -702,9 +709,9 @@
           <first_editor relative-caret-position="918">
             <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
             <folding>
-              <marker date="1467067281829" expanded="true" signature="1276:1838" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1281:1822" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1495:1544" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1276:1838" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1281:1822" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1495:1544" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -782,9 +789,9 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1467067281829" expanded="true" signature="1276:1838" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1281:1822" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1495:1544" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1276:1838" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1281:1822" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1495:1544" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -825,9 +832,9 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1467067281829" expanded="true" signature="1276:1838" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1281:1822" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1495:1544" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1276:1838" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1281:1822" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1495:1544" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -868,9 +875,9 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1467067281829" expanded="true" signature="1276:1838" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1281:1822" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1495:1544" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1276:1838" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1281:1822" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1495:1544" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -962,31 +969,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/angular - 1.1.1/index.js" />
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467067281829" expanded="true" signature="1276:1838" ph="..." />
-            <marker date="1467067281829" expanded="true" signature="1281:1822" ph="..." />
-            <marker date="1467067281829" expanded="true" signature="1495:1544" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1105">
-            <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-            <folding>
-              <marker date="1467067281829" expanded="true" signature="1276:1838" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1281:1822" ph="..." />
-              <marker date="1467067281829" expanded="true" signature="1495:1544" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/5/training.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1061,9 +1043,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="-331">
           <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1469052864905" expanded="true" signature="1276:1838" ph="..." />
+            <marker date="1469052864905" expanded="true" signature="1281:1822" ph="..." />
+            <marker date="1469052864905" expanded="true" signature="1495:1544" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="298">
+            <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
+            <folding>
+              <marker date="1469052864905" expanded="true" signature="1276:1838" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1281:1822" ph="..." />
+              <marker date="1469052864905" expanded="true" signature="1495:1544" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

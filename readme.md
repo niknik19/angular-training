@@ -67,6 +67,14 @@ You should use ng-transclude directive so that you could insert any content into
 
     expression. Check that label displaying the value changed with setTimeout is not refreshed.  	Do the same with ajax, click event.
 
+
+#### [Task - 7]
+- Add integration of existing jQuery plugin. Plugin should have methods:
+
+      setValue,
+      getValue,
+      onValueChanged
+
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [Task - 1]: <//niknik19.github.io/angular-training/index1.html>
@@ -76,3 +84,4 @@ You should use ng-transclude directive so that you could insert any content into
    [Task - 4]: <//niknik19.github.io/angular-training/index4.html>
    [Task - 5]: <//niknik19.github.io/angular-training/index5.html>
    [Task - 6]: <//niknik19.github.io/angular-training/index6.html>
+   [Task - 7]: <//niknik19.github.io/angular-training/index7.html>
