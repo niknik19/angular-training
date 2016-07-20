@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Angular Training</title>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/training.css">
+</head>
+
+<body ng-app="myApp">
+<form class="container" ng-controller="simpleController" ng-init="maskValue='0-000-00'">
+
+    <div class="row form-inline">
+        <h2>
+            <label class="col-xs-2 label label-primary">
+                Enter Value:
+            </label>
+        </h2>
+
+        <input class="form-control col-xs-2 form-inline" ng-model="inputValue" placeholder="Value"/>
+        <input class="form-control col-xs-2 form-inline" ng-model="maskValue" placeholder="Mask"/>
+        <button type="button" class="form-control btn btn-primary form-inline col-xs-2" ng-click="showCurrent()">Get current value</button>
+
+    </div>
+
+    <div class="row form-inline">
+        <h2>
+            <label class="col-xs-2 label label-primary">
+                Masked Input:
+            </label>
+        </h2>
+        <masked-input class="col-xs-2 form-control" val="inputValue" mask="maskValue" current="current" on-value-changed="onValueChanged(value)"></masked-input>
+        <input class="form-control col-xs-2" ng-model="current" readonly />
+    </div>
+
+    <div class="row form-inline">
+        <textarea class="form-control col-xs-8" rows="8" cols="100" ng-model="changeLog"readonly></textarea>
+    </div>
+</form>
+</body>
+
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="external-components/jquery.mask.js"></script>
+<script src="components/angular/angular.js"></script>
+<script src="js/7/training.js"></script>
+<script src="components/lodash/lodash.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.js"></script>
+
+</html>
